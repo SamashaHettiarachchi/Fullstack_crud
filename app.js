@@ -7,7 +7,7 @@ const app = express();
 // Middleware to parse JSON
 app.use(express.json());
 
-// Route middleware
+// Route middlewar
 app.use(express.json());
 app.use("/users", userRoutes);
 
